@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(204, 112, 173);
+
+}
+
+#header{
+    text-align: center;
+    color: white;
+
+}
+#btn{
+    height: 45px;
+    width: 150px;
+    margin: 4px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(66, 3, 40);
+    color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+    box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+}
+#btn:hover{
+    background-color: rgb(167, 12, 89);
+    color: white;
+}
+.imageclass{
+    width: 500px;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+@media screen and (max-width:320px) {
+    #header{
+        margin-left: -150px;
+        color: white;
+    
+    }
+    #one{
+        font-size: 10px;
+    }
+    #two{
+        font-size:8px ;
+    }
+    #btn{
+        height: 15px;
+        width: 50px;
+        margin: 4px;
+        font-size: 6px;
+        border-radius: 10px;
+        border: 2px solid rgb(66, 3, 40);
+        color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+        box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+    }
+    #btn:hover{
+        background-color: rgb(167, 12, 89);
+        color: white;
+    }
+    .imageclass{
+        width: 120px;
+        /* margin-top: 30px; */
+    }
+    
+    }
+    @media screen and (min-width:320px) and (max-width:375px) {
+        #header{
+            text-align: center;
+            color: white;
+            
+            margin-left: 40px;
+        
+        }
+        #btn{
+            height: 45px;
+            width: 150px;
+            margin: 4px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 2px solid rgb(66, 3, 40);
+            color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+            box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+        }
+        #one{
+            font-size: 20px;
+        }
+        #two{
+            font-size:15px ;
+        }
+        .imageclass{
+            width: 320px;
+            margin-left: 22px;
+            
+            /* margin-top: 20px; */
+        }
+    }
+    @media screen and (min-width:376px) and (max-width:425px) {
+        #header{
+            /* text-align: center; */
+            color: white;
+            margin-top: 40px;
+            margin-left: 60px;
+        
+        }
+        #btn{
+            height: 45px;
+            width: 150px;
+            margin: 4px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 2px solid rgb(66, 3, 40);
+            color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+            box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+        }
+        .imageclass{
+            width: 420px;
+            margin-left: 2px;
+            
+            /* margin-top: 20px; */
+        }
+    }
+    @media screen and (min-width:426px) and (max-width:768px) {
+        #header{
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            margin-left: 30px;
+            /* font-size: 5px; */
+        
+        }
+        #one{
+            font-size: 20px;
+        }
+        #two{
+            font-size:15px ;
+        }
+        #btn{
+            height: 45px;
+            width: 150px;
+            margin: 4px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: 2px solid rgb(66, 3, 40);
+            color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+            box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+        }
+        .imageclass{
+            width: 450px;
+            margin-left: 230px;
+            
+            /* margin-top: 20px; */
+        }
+    }
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #header{
+        text-align: center;
+        color: white;
+        margin-top: 40px;
+        margin-left: 200px;
+    
+    }
+    #btn{
+        height: 45px;
+        width: 150px;
+        margin: 4px;
+        font-size: 25px;
+        border-radius: 10px;
+        border: 2px solid rgb(66, 3, 40);
+        color: rgb(68, 3, 36);background-color: rgb(204, 184, 196);
+        box-shadow: 4px 5px 5px rgba(0, 0,0,0.5);
+    }
+    .imageclass{
+        width: 450px;
+        margin-left: 330px;
+        
+        /* margin-top: 20px; */
+    }
+}
+
+
+
+
+
+
